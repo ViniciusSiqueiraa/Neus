@@ -1,0 +1,20 @@
+<div class="container to-adm">
+  <div class="row">
+      <div class="col-md-3"> 
+      <div class="box box-solid"> 
+          <div class="box-body no-padding">
+            <ul class="nav nav-pills nav-stacked"> 
+              <li><a href="javascript:void(0);" [routerLink]="['/admin/profile/dados-pessoais']"><i class="fa fa-user"></i> Dados Pessoais </a></li>
+              <li><a href="javascript:void(0);" [routerLink]="['/admin/profile/curriculo']"><i class="fa fa-file-text-o"></i> Currículo </a></li> 
+              
+            </ul>
+          </div>
+          <!-- /.box-body -->
+        </div>
+      </div>
+    <div class="col-md-6">
+      <router-outlet></router-outlet>
+    
+    </div>
+  </div>
+</div>
